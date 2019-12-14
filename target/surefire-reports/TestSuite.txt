@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.839 s <<< FAILURE! - in TestSuite
+MvnProject.baseTest.initializeDriver  Time elapsed: 3.313 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-16KD63Q', ip: '192.168.43.157', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at MvnProject.baseTest.initializeDriver(baseTest.java:54)
+
